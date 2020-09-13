@@ -1,0 +1,21 @@
+@media (max-width:720px){
+    /* Box */
+    .box{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    /* Showcase */
+    .row{
+        flex-direction: column-reverse;
+    }
+    .show_img{
+        width: 100%;
+        height: auto;
+    }
+    .main_div h2{
+        width: 100%;
+        height: auto;
+
+    }
+}

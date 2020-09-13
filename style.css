@@ -1,0 +1,224 @@
+/*====  Universal  ======*/
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    transition: 0.4s;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*====  Root  ===== */
+:root{
+    --font: Georgia;
+    --font-size:0.8125rem;
+}
+:root{
+    --bg-color:#290000;
+}
+/*====   Header  ====*/
+.head_bg{
+    background: #290000;
+    border-top: 3px solid #76C38F;
+}
+.navbar-brand{
+    font-size: 1.75rem !important;
+}
+.nav-link{
+    border: 1px solid  transparent;
+    border-radius:10px;
+    margin-right: 16px;
+    transition:0.5s;
+    padding-left: 20px !important;
+    padding-right: 20px !important ;
+    font-size:0.8125rem !important;
+    font-weight: 100 !important;
+}
+.nav-link:hover{
+    background-color: #76C38F;
+}
+.fa-navicon{
+    color:#fff;
+}
+/*====  Showcase  ====*/
+.showcase_bg{
+    background-color: var(--bg-color);
+}
+.margin_top{
+    margin-top: 115px;
+}
+.margin_top p{
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    color: #979797 !important;
+    width: 315px;
+}
+.margin_top h2{
+    font-size: 46px;
+}
+/* ====  service  ==== */
+.colom_bg{
+    background-color: #660000;
+}
+.box{
+    width: 22%;
+    background-color: #ffffff;
+    padding: 1%;
+    margin-right: 2%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.box:last-child{
+    margin-right: 0;
+}
+.box p{
+    color:#979797;
+}
+.box {
+    align-content: center;
+    text-align: center;
+}
+.box:hover{
+    background-color: #76C38F;
+    color: #fff;
+     transform: translateY(-5px);
+}
+.box:hover p{
+    color:#fff;
+}
+/* ====  latest work  ====*/
+.latest_bg{
+    background-color: #660000;
+}
+.main_div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.main_div h2{
+	color: #fff;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.5); 
+    background-color: #303030;
+    padding: 9px;
+    border-radius: 13px;
+    width: 320px
+}
+.main_div::before{
+    content: "";
+    width: 50%;
+    height: 5px;
+    background-color: #303030;
+    display: inline-block;
+    bottom: -10px;
+}
+.main_div::after{
+    content: "";
+    width: 50%;
+    height: 5px;
+    background-color: #303030;
+    display: inline-block;
+    bottom: -10px;
+}
+.latest_work_img img{
+    width: 100%;
+    height: auto;
+    border: 5px solid #fff;
+    transition: 0.59s;
+    margin-bottom: 18px;
+    
+}
+.latest_work_img img:hover{
+    border: 5px solid #76C38F;
+    transform: translateY(-5px);
+}
+/*Footer */
+.footer_bg{
+    background-color: #303030;
+}
+/*====  From the bolg  ====*/
+.st_col h2{
+    font-weight: 100;
+    font-size: 16pt;
+    padding-bottom: 25px;
+}
+.st_col h3{
+    color: #76C38F;
+    font-size: 13pt;
+}
+.st_col .sub_title{
+    font-size: 10pt;
+    color: #666666;
+}
+ .admin{
+    color: #76C38E;
+}
+.foot_color{
+    color: #979797;
+    font-size: 10pt;
+}
+.font_13{
+    font-size: 13pt;
+}
+/*Quick Links  */
+.quic_links .link{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #404040;
+    color: #76C38F !important;
+}
+.quic_links li{
+    margin-bottom: 25px;
+    list-style: none;
+}
+.quic_links li a:hover{
+    text-decoration: none !important;
+}
+.latest_tweets h2{
+    font-size: 16pt;
+        padding-bottom: 25px;
+}
+/*Latest Tweets*/
+.latest_tweets p{
+    color:#979797;
+}
+/* Contact Us*/
+.contact_us h2{
+        font-size: 16pt;
+        padding-bottom: 25px;
+}
+.contact_us form input{
+    background-color: #222222;
+    padding:10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+.contact_us form textarea{
+    background-color: #222222;
+    padding:10px;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+.btn{
+    background-color: #76C38F;
+    border-radius: 10px;
+}
+/*Copy Right section */
+.copydec_bg{
+    background-color: #2B2B2B;
+    min-height: 50px;
+    color: #979797;
+    border-top: 1px solid #000000;
+}
